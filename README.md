@@ -1,2 +1,2 @@
 # fend-portfolio-site
-A sample responsive website utilizing a flexbox layout 
+A sample responsive portfolio website utilizing a flexbox layout 
