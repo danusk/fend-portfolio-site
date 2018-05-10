@@ -1,0 +1,90 @@
+html {
+    font-family: 'Glegoo', serif;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+.site-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.site-header {
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 90%;
+    margin: 10px 0 0 0;
+}
+
+
+#logo {
+    position: absolute;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 80px;
+    color: #ae81ff;
+}
+
+
+hr {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+
+#main-img {
+    height: 100%;
+    width: 100%;
+}
+
+.featured-header {
+    line-height: 90%;
+}
+
+
+.all-projects-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.project-content {
+    text-align: center;
+    width: 30%;
+    margin: 5px;
+}
+
+
+figcaption {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 500px) {
+    .all-projects-container {
+        flex-direction: column;
+    }
+
+    .project-content {
+        width: 100%;
+        margin: auto;
+    }
+
+    .h1-header {
+        font-size: 24px;
+    }
+
+    .h3-header {
+        font-size: 15px;
+    }
+
+    .h4-header {
+        font-size: 12px;
+    }
+}
